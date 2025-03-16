@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admissions - XYZ College</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Admission Form</h1>
+    </header>
+
+    <section class="admission-form">
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+
+            <label for="course">Select Course:</label>
+            <select id="course">
+                <option value="cs">None</option>
+                <option value="cs">Mechanical Engineering</option>
+                <option value="bba">Automobile Engineering</option>
+                <option value="bba">Electrical and Electronics Engineering</option>
+                <option value="bba">Computer Engineering</option>
+            </select>
+
+            <button type="submit" class="btn">Apply</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
